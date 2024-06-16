@@ -1,0 +1,68 @@
+body {
+    background-color: #091240;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    color: #2346FF;
+}
+
+h2 {
+    color: #2346FF;
+}
+
+#search-results {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-overview {
+    color: #fff;
+    text-align: center;
+    max-width: 60%;
+}
+
+#other-movies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px; 
+    padding: 16px; 
+    justify-items: center; 
+}
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 100%; 
+    max-width: 250px; 
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-card h3 {
+    margin: 8px 0 4px;
+    font-size: 1em; 
+}
+
+.movie-card p {
+    padding: 0 8px 8px;
+    font-size: 0.8em; 
+    color: #555;
+} 
